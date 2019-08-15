@@ -1,14 +1,14 @@
 num=int(input());
 if num > 1:
    # check for factors
-   for i in range(2,num):
-       if (num % i) == 0:
-           print(num,"is not a prime number")
-           print(i,"times",num//i,"is",num)
+   for i in range(3,n):
+       if (n % i) == 0:
+           print(n,"is not a prime number")
+           print(i,"times",n//i,"is",n)
            break
    else:
-       print(num,"is a prime number")
+       print(n,"is a prime number")
        
 
 else:
-   print(num,"is not a prime number")
+   print(n,"is not a prime number")
