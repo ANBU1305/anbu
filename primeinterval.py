@@ -7,8 +7,10 @@ if num > 1:
            print(i,"times",n//i,"is",n)
            break
    else:
-       print(n,"is a prime number")
+       if((n%2)==0){
+          print(n);
+        }
        
 
 else:
-   print(n,"is not a prime number")
+   print(n);
